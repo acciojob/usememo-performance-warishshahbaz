@@ -9,9 +9,9 @@ const App = () => {
     let res = [];
     for (let i = 0; i < 50; i++) {
       if (i % 2 !== 0) {
-        res.push({ name: `Todo${i + 1}`, status: "active" });
+        res.push({ name: `Todo ${i + 1}`, status: "active" });
       } else {
-        res.push({ name: `Todo${i + 1}`, status: "complete" });
+        res.push({ name: `Todo ${i + 1}`, status: "complete" });
       }
     }
     setData(res);
